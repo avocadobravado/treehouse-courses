@@ -108,11 +108,11 @@ header ul::after {
 
 .course {
   background-color: white;
+  max-width: 650px;
   border-radius: 5px;
   box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.4);
   float: left;
-  margin: 0 2.5% 30px 2.5%;
-  width: 45%;
+  margin: 20px;
 }
 
 .course:nth-child(2n+1) {
