@@ -2,132 +2,135 @@
 <html>
   <head>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <title>Treehouse Replica</title>
   </head>
   <body>
-    <header>
-      <h3>Library</h3>
-      <ul>
-        <li>197  <i class="fa fa-user-o" aria-hidden="true"></i> <i class="fa fa-chevron-down" aria-hidden="true"></i></li>
-        <li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></li>
-        <li><i class="fa fa-bell-o" aria-hidden="true"></i></li>
-      </ul>
+    <div class="container">
+      <header>
+        <h3>Library</h3>
+        <ul>
+          <li>197</li>
+          <li><i class="fa fa-user-o" aria-hidden="true"></i></li>
+          <li><i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+          <li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></li>
+          <li><i class="fa fa-bell-o" aria-hidden="true"></i></li>
+        </ul>
+        <hr>
+      </header>
+      <div class="courses">
+        <div id="java-annotations" class="course">
+          <div class="course-header cf">
+            <ul>
+              <li><i class="fa fa-book" aria-hidden="true"></i></li>
+              <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
+              <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
+            </ul>
+            <p>118 min</p>
+          </div><!--Course header-->
+          <div class="course-content">
+            <p class="course-type">Course</p>
+            <h3>Java Annotations</h3>
+            <p class="course-description">Annotations have rapidly become the preferred approach to integrating powerful third-party libraries into your own Java...</p>
+          </div><!--Course content-->
+          <div class="course-footer">
+            <ul class="course-difficulty">
+              <li class="java">Java</li>
+              <li>Intermediate</li>
+            </ul>
+            <ul class="course-icons">
+              <li><i class="fa fa-play" aria-hidden="true"></i></li>
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            </ul>
+          </div>
+        </div><!--Course close-->
+
+        <div id="django-templates" class="course">
+          <div class="course-header cf">
+            <ul>
+              <li><i class="fa fa-book" aria-hidden="true"></i></li>
+              <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
+              <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
+              <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
+            </ul>
+            <p>118 min</p>
+          </div><!--Course header-->
+          <div class="course-content">
+            <p class="course-type">Course</p>
+            <h3>Customizing Django Templates</h3>
+            <p class="course-description">In Django Basics, you learned how to set up the skeleton of a video tutuorial library. But for a real-world application you'd...</p>
+          </div><!--Course content-->
+          <div class="course-footer">
+            <ul class="course-difficulty">
+              <li id="python">Python</li>
+              <li>Intermediate</li>
+            </ul>
+            <ul class="course-icons">
+              <li><i class="fa fa-play" aria-hidden="true"></i></li>
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            </ul>
+          </div>
+        </div><!--Course close-->
+
+        <div id="WooCommerce" class="course">
+          <div class="course-header cf">
+            <ul>
+              <li><i class="fa fa-book" aria-hidden="true"></i></li>
+              <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
+              <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
+              <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
+              <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
+              <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
+            </ul>
+            <p>3 hours</p>
+          </div><!--Course header-->
+          <div class="course-content">
+            <p class="course-type">Course</p>
+            <h3>WooCommerce Theme Development</h3>
+            <p class="course-description">WoocCommerce is a leading Ecommerce plugin for WordPress and allows you to easily turn any WordPress site into a site...</p>
+          </div><!--Course content-->
+          <div class="course-footer">
+            <ul class="course-difficulty">
+              <li id="WordPress">WordPress</li>
+              <li>Intermediate</li>
+            </ul>
+            <ul class="course-icons">
+              <li><i class="fa fa-play" aria-hidden="true"></i></li>
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            </ul>
+          </div>
+        </div><!--Course close-->
+
+        <div id="JavaFX" class="course">
+          <div class="course-header cf">
+            <ul>
+              <li><i class="fa fa-book" aria-hidden="true"></i></li>
+              <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
+              <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
+              <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
+              <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
+            </ul>
+            <p>3 hours</p>
+          </div><!--Course header-->
+          <div class="course-content">
+            <p class="course-type">Course</p>
+            <h3>Build a JavaFX Application</h3>
+            <p class="course-description">JavaFX is the de facto way to make  Graphical User Interfaces (or GUIs) in Java. It is robust and customizable, and getting familia...</p>
+          </div><!--Course content-->
+          <div class="course-footer">
+            <ul class="course-difficulty">
+              <li class="java">Java</li>
+              <li>Intermediate</li>
+            </ul>
+            <ul class="course-icons">
+              <li><i class="fa fa-play" aria-hidden="true"></i></li>
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            </ul>
+          </div>
+        </div><!--Course close-->
+      </div><!--Courses close-->
       <hr>
-    </header>
-    <div class="courses">
-      <div id="java-annotations" class="course java-course">
-        <div class="course-header">
-          <ul>
-            <li><i class="fa fa-book" aria-hidden="true"></i></li>
-            <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
-            <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
-          </ul>
-          <p>118 min</p>
-        </div><!--Course header-->
-        <div class="course-content">
-          <p class="course-type">Course</p>
-          <h3>Java Annotations</h3>
-          <p class="course-description">Annotations have rapidly become the preferred approach to integrating powerful third-party libraries into your own Java applications. In this course, we'll first explore the basic use of annotations to give the compiler instructions. Then, we'll use more advanced techniques to create our own annotation and look for it using reflection.</p>
-        </div><!--Course content-->
-        <div class="course-footer">
-          <ul>
-            <li class="java">Java</li>
-            <li>Intermediate</li>
-          </ul>
-          <ul class="course-icons">
-            <li><i class="fa fa-play" aria-hidden="true"></i></li>
-            <li><i class="fa fa-star" aria-hidden="true"></i></li>
-          </ul>
-        </div>
-      </div><!--Course close-->
-
-      <div id="django-templates" class="course">
-        <div class="course-header">
-          <ul>
-            <li><i class="fa fa-book" aria-hidden="true"></i></li>
-            <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
-            <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
-            <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
-          </ul>
-          <p>118 min</p>
-        </div><!--Course header-->
-        <div class="course-content">
-          <p class="course-type">Course</p>
-          <h3>Customizing Django Templates</h3>
-          <p class="course-description">In Django Basics, you learned how to set up the skeleton of a video tutuorial library. But for a real-world application you'd...</p>
-        </div><!--Course content-->
-        <div class="course-footer">
-          <ul>
-            <li id="python">Python</li>
-            <li>Intermediate</li>
-          </ul>
-          <ul class="course-icons">
-            <li><i class="fa fa-play" aria-hidden="true"></i></li>
-            <li><i class="fa fa-star" aria-hidden="true"></i></li>
-          </ul>
-        </div>
-      </div><!--Course close-->
-
-      <div id="WooCommerce" class="course">
-        <div class="course-header">
-          <ul>
-            <li><i class="fa fa-book" aria-hidden="true"></i></li>
-            <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
-            <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
-            <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
-            <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
-            <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
-          </ul>
-          <p>3 hours</p>
-        </div><!--Course header-->
-        <div class="course-content">
-          <p class="course-type">Course</p>
-          <h3>WooCommerce Theme Development</h3>
-          <p class="course-description">WoocCommerce is a leading Ecommerce plugin for WordPress and allows you to easily turn any Wordpress site into a site...</p>
-        </div><!--Course content-->
-        <div class="course-footer">
-          <ul>
-            <li id="WordPress">WordPress</li>
-            <li>Intermediate</li>
-          </ul>
-          <ul class="course-icons">
-            <li><i class="fa fa-play" aria-hidden="true"></i></li>
-            <li><i class="fa fa-star" aria-hidden="true"></i></li>
-          </ul>
-        </div>
-      </div><!--Course close-->
-
-      <div id="JavaFX" class="course java-course">
-        <div class="course-header">
-          <ul>
-            <li><i class="fa fa-book" aria-hidden="true"></i></li>
-            <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
-            <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
-            <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
-            <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
-          </ul>
-          <p>3 hours</p>
-        </div><!--Course header-->
-        <div class="course-content">
-          <p class="course-type">Course</p>
-          <h3>Build a JavaFX Application</h3>
-          <p class="course-description">JavaFX is the de facto way to make  Graphical User Interfaces (or GUIs) in Java. It is robust and customizable, and getting familia...</p>
-        </div><!--Course content-->
-        <div class="course-footer">
-          <ul>
-            <li class="java">Java</li>
-            <li>Intermediate</li>
-          </ul>
-          <ul class="course-icons">
-            <li><i class="fa fa-play" aria-hidden="true"></i></li>
-            <li><i class="fa fa-star" aria-hidden="true"></i></li>
-          </ul>
-        </div>
-      </div><!--Course close-->
-      <hr>
-      
-    </div>
-
+    </div><!--Container close-->
   </body>
 </html>
