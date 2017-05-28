@@ -18,7 +18,7 @@ The courses are positioned side by side using the `float` property.
 
 OR...
 
-* View on gh-pages at [https://github.com/avocadobravado/treehouse-courses](https://github.com/avocadobravado/treehouse-courses)
+* View on gh-pages at [https://avocadobravado.github.io/treehouse-courses](https://avocadobravado.github.io/treehouse-courses)
 
 ## Screenshot of Website
 
